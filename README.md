@@ -1,6 +1,11 @@
+<div align="center">
+
 # Awesome AI Agents 2026 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+</div>
+
 <div align="center">
+  
 ![Updated](https://img.shields.io/badge/Updated-March%202026-00d4ff)
 ![Tools](https://img.shields.io/badge/Tools-80%2B-7c3aed)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-10b981)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/blob/main/CONTRIBUTING.md)
