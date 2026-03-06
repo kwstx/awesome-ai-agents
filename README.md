@@ -2,13 +2,7 @@
 
 ![Updated](https://img.shields.io/badge/Updated-March%202026-00d4ff) ![Tools](https://img.shields.io/badge/Tools-80%2B-7c3aed) [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-10b981)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/blob/main/CONTRIBUTING.md) ![License](https://img.shields.io/badge/License-CC0-f59e0b)
 
-A meticulously curated list of frameworks, tools, platforms, and resources for building autonomous AI agents in 2026.
-
-*If this list saved you research time, please ⭐ star it — it helps others find it too.*
-
----
-
-## Contents
+## Table of Contents
 
 - [Not Sure Where to Start](#not-sure-where-to-start)
 - [Orchestration Frameworks](#orchestration-frameworks)
@@ -22,6 +16,10 @@ A meticulously curated list of frameworks, tools, platforms, and resources for b
 - [Learning Resources](#learning-resources)
 
 ---
+
+A meticulously curated list of frameworks, tools, platforms, and resources for building autonomous AI agents in 2026.
+
+*If this list saved you research time, please ⭐ star it — it helps others find it too.*
 
 The AI agent ecosystem grew faster in 2025 than most engineers could keep up with. New frameworks launched monthly, companies merged products, and the line between "agent framework" and "workflow automation" blurred entirely.
 
