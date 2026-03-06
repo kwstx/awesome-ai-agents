@@ -1,8 +1,6 @@
-# Awesome AI Agents 2026
+# Awesome AI Agents 2026 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <div align="center">
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Updated](https://img.shields.io/badge/Updated-March%202026-00d4ff)
 ![Tools](https://img.shields.io/badge/Tools-80%2B-7c3aed)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-10b981)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/blob/main/CONTRIBUTING.md)
@@ -51,18 +49,18 @@ Updated monthly. PRs welcome.
 
 ## Not Sure Where to Start
 
-| I want to                                   | Use this                                                                 |
-| ------------------------------------------- | ------------------------------------------------------------------------ |
-| Build a production agent pipeline in Python | [LangGraph](#langgraph) or [CrewAI](#crewai)                            |
-| Build a production agent pipeline in TypeScript | [Mastra](#mastra) or [VoltAgent](#voltagent)                        |
-| Write and debug code autonomously           | [Claude Code](#claude-code) or [OpenHands](#openhands-opendevin)        |
-| Orchestrate large teams of agents           | [AutoGen](#autogen-microsoft-agent-framework) or [Swarms](#swarms-framework) |
-| Build without writing code                  | [Dify](#dify) or [Langflow](#langflow)                                  |
-| Add memory to an existing agent             | [Mem0](#mem0)                                                            |
-| Run code safely in a sandbox                | [E2B](#e2b)                                                              |
-| Add safety guardrails to any agent          | [AgentGuard](#agentguard)                                               |
-| Build a voice agent                         | [Pipecat](#pipecat)                                                      |
-| Learn the fundamentals first                | [Building Effective Agents](#building-effective-agents--anthropic)       |
+| I want to                                       | Use this                                                              |
+| ----------------------------------------------- | --------------------------------------------------------------------- |
+| Build a production agent pipeline in Python     | [LangGraph](#langgraph) or [CrewAI](#crewai)                         |
+| Build a production agent pipeline in TypeScript | [Mastra](#mastra) or [VoltAgent](#voltagent)                         |
+| Write and debug code autonomously               | [Claude Code](#claude-code) or [OpenHands](#openhands-opendevin)     |
+| Orchestrate large teams of agents               | [AutoGen](#autogen-microsoft-agent-framework) or [Swarms](#swarms-framework) |
+| Build without writing code                      | [Dify](#dify) or [Langflow](#langflow)                               |
+| Add memory to an existing agent                 | [Mem0](#mem0)                                                        |
+| Run code safely in a sandbox                    | [E2B](#e2b)                                                          |
+| Add safety guardrails to any agent              | [AgentGuard](#agentguard)                                            |
+| Build a voice agent                             | [Pipecat](#pipecat)                                                  |
+| Learn the fundamentals first                    | [Building Effective Agents](#building-effective-agents--anthropic)   |
 
 ---
 
@@ -268,7 +266,7 @@ Overlay network stack giving AI agents virtual addresses, encrypted UDP tunnels,
 
 ### AgentDock
 
-**[GitHub](https://github.com/agentdock/agentdock)**
+[GitHub](https://github.com/agentdock/agentdock)
 
 Open-source foundation to build, manage, and deploy production-ready AI agents frictionlessly. Abstracts API management, complex integrations, and deployment infrastructure so you can focus on building.
 
@@ -304,7 +302,7 @@ Deploy autonomous AI agents in your browser with zero local setup. Goal-oriented
 
 ### Wordware
 
-**[Site](https://wordware.ai)**
+[Site](https://wordware.ai)
 
 Web-hosted IDE where non-technical domain experts collaborate with AI engineers. Treats prompting as a programming language rather than a no-code block builder.
 
@@ -322,7 +320,7 @@ Open-source framework for voice and multimodal conversational AI. Handles the re
 
 ### Agentset
 
-**[GitHub](https://github.com/agentset/agentset)**
+[GitHub](https://github.com/agentset/agentset)
 
 Open-source production-ready RAG platform with built-in agentic reasoning, hybrid search, and multimodal support. Handles PDFs, images, audio, and structured data in a unified agent pipeline.
 
