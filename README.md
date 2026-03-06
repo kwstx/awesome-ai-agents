@@ -1,40 +1,14 @@
-<div align="center">
-
 # Awesome AI Agents 2026 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-</div>
-
-<div align="center">
-  
-![Updated](https://img.shields.io/badge/Updated-March%202026-00d4ff)
-![Tools](https://img.shields.io/badge/Tools-80%2B-7c3aed)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-10b981)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/blob/main/CONTRIBUTING.md)
-![License](https://img.shields.io/badge/License-CC0-f59e0b)
+![Updated](https://img.shields.io/badge/Updated-March%202026-00d4ff) ![Tools](https://img.shields.io/badge/Tools-80%2B-7c3aed) [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-10b981)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/blob/main/CONTRIBUTING.md) ![License](https://img.shields.io/badge/License-CC0-f59e0b)
 
 **A meticulously curated list of frameworks, tools, platforms, and resources for building autonomous AI agents in 2026.**
 
 If this list saved you research time, please ⭐ star it — it helps others find it too.
 
-</div>
-
 ---
 
 ## Contents
-
-- [Why This List](#why-this-list)
-- [Not Sure Where to Start](#not-sure-where-to-start)
-- [Orchestration Frameworks](#orchestration-frameworks)
-- [Coding Agents](#coding-agents)
-- [Memory and Context](#memory-and-context)
-- [Multi-Agent Systems](#multi-agent-systems)
-- [Agent Tooling and Infrastructure](#agent-tooling-and-infrastructure)
-- [Low and No-Code Builders](#low-and-no-code-builders)
-- [Voice and Multimodal Agents](#voice-and-multimodal-agents)
-- [Safety Guardrails and Observability](#safety-guardrails-and-observability)
-- [Learning Resources](#learning-resources)
-- [Changelog](#changelog)
-
----
 
 ## Why This List
 
@@ -52,86 +26,20 @@ Updated monthly. PRs welcome.
 
 ---
 
-## Not Sure Where to Start
-
-| I want to                                       | Use this                                                                      |
-| ----------------------------------------------- | ----------------------------------------------------------------------------- |
-| Build a production agent pipeline in Python     | [LangGraph](#langgraph) or [CrewAI](#crewai)                                 |
-| Build a production agent pipeline in TypeScript | [Mastra](#mastra) or [VoltAgent](#voltagent)                                 |
-| Write and debug code autonomously               | [Claude Code](#claude-code) or [OpenHands](#openhands-opendevin)             |
-| Orchestrate large teams of agents               | [AutoGen](#autogen-microsoft-agent-framework) or [Swarms](#swarms-framework) |
-| Build without writing code                      | [Dify](#dify) or [Langflow](#langflow)                                       |
-| Add memory to an existing agent                 | [Mem0](#mem0)                                                                |
-| Run code safely in a sandbox                    | [E2B](#e2b)                                                                  |
-| Add safety guardrails to any agent              | [AgentGuard](#agentguard)                                                    |
-| Build a voice agent                             | [Pipecat](#pipecat)                                                          |
-| Learn the fundamentals first                    | [Building Effective Agents](#building-effective-agents--anthropic)           |
-
----
-
 ## Orchestration Frameworks
 
 The backbone libraries powering production AI agents in 2026.
 
-### LangGraph
-
-**[GitHub](https://github.com/langchain-ai/langgraph)** · **[Docs](https://langchain-ai.github.io/langgraph/)** · `Python` · ⭐ 24.8k
-
-The de facto enterprise framework for building stateful, graph-based agent workflows. 34.5M monthly downloads. Used by Cisco, Uber, LinkedIn, BlackRock, and JPMorgan. Klarna's support bot handles 2/3 of all inquiries — the equivalent of 853 employees.
-
-### CrewAI
-
-**[GitHub](https://github.com/joaomdmoura/crewAI)** · `Python` · ⭐ 44.8k
-
-Role-playing autonomous agent orchestration where agents collaborate like a crew with distinct roles such as researcher, writer, and coder. 5.2M monthly downloads. Added streaming tool call events in January 2026 for real-time performance insights.
-
-### AutoGen Microsoft Agent Framework
-
-**[GitHub](https://github.com/microsoft/autogen)** · `Python` · ⭐ 54.6k
-
-Microsoft merged AutoGen with Semantic Kernel into a unified Microsoft Agent Framework (GA Q1 2026). Event-driven architecture for complex multi-agent conversations. Used by Novo Nordisk for data science automation workflows.
-
-### OpenAI Agents SDK
-
-**[GitHub](https://github.com/openai/openai-agents-python)** · `Python` · ⭐ 19k
-
-Lightweight framework for multi-agent workflows with comprehensive tracing and guardrails. Released March 2025. Provider-agnostic — works with 100+ LLMs. 10.3M monthly downloads. Minimal overhead, low learning curve.
-
-### Google Agent Dev Kit
-
-**[GitHub](https://github.com/google/adk-python)** · `Python` · ⭐ 17.8k
-
-Modular framework integrating with Gemini, Vertex AI, and the Google Cloud ecosystem. Supports hierarchical agent compositions and custom tools. Powers Google's Agentspace platform. 3.3M monthly downloads.
-
-### Mastra
-
-**[GitHub](https://github.com/mastra-ai/mastra)** · `TypeScript` · ⭐ 20.6k
-
-Opinionated TypeScript framework for AI apps with assistants, RAG pipelines, and built-in observability. Ideal for JS/TS teams who want structure without fighting the framework. Strong community momentum in 2026.
-
-### PraisonAI
-
-**[GitHub](https://github.com/pipelineai/praisonai)** · `Python`
-
-Production-ready multi-agent framework with self-reflection. Fastest agent instantiation at 3.77μs. Supports 100+ LLMs, MCP integration, memory, and both Python and JavaScript SDKs.
-
-### Modus
-
-**[GitHub](https://github.com/getmodus/modus)** · `Go`
-
-Open-source serverless framework for intelligent agents and APIs written in Go or AssemblyScript. Unique language choice delivers excellent performance for high-throughput agentic workloads.
-
-### Strands Agents SDK
-
-**[GitHub](https://github.com/awslabs/strands-agents)** · `Python`
-
-AWS model-driven approach to building agents in just a few lines of code. Integrates natively with Bedrock. Emphasizes simplicity: define tools, pick a model, and let the SDK handle the agentic loop.
-
-### VoltAgent
-
-`TypeScript`
-
-TypeScript framework for building AI agents with built-in LLM observability baked in from day one. Agentic Context Engine supports self-improving agents that learn from execution feedback. LangChain-compatible.
+- [AutoGen (Microsoft)](https://github.com/microsoft/autogen) - Event-driven multi-agent framework merged with Semantic Kernel for production workflows · Python · ⭐ 54.6k.
+- [CrewAI](https://github.com/joaomdmoura/crewAI) - Role-playing agent orchestration for collaborative agent teams · Python · ⭐ 44.8k.
+- [Google ADK](https://github.com/google/adk-python) - Modular agent dev kit integrating Gemini/Vertex AI · Python · ⭐ 17.8k.
+- [LangGraph](https://github.com/langchain-ai/langgraph) - Enterprise framework for stateful, graph-based agent workflows (Docs: https://langchain-ai.github.io/langgraph/) · Python · ⭐ 24.8k.
+- [Mastra](https://github.com/mastra-ai/mastra) - Opinionated TypeScript framework with RAG and observability · TypeScript · ⭐ 20.6k.
+- [Modus](https://github.com/getmodus/modus) - Serverless framework for high-throughput agent workloads · Go.
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Lightweight multi-agent SDK with tracing and guardrails · Python · ⭐ 19k.
+- [PraisonAI](https://github.com/pipelineai/praisonai) - Production multi-agent framework with self-reflection and MCP integration · Python.
+- [Strands Agents SDK](https://github.com/awslabs/strands-agents) - AWS model-driven agent SDK with Bedrock integration · Python.
+- [VoltAgent](https://pipecat.ai) - TypeScript agent framework with built-in observability and a self-improving context engine.
 
 ---
 
@@ -139,23 +47,13 @@ TypeScript framework for building AI agents with built-in LLM observability bake
 
 Agents that write, review, debug, and ship code autonomously.
 
-### Claude Code
+- [Aider](https://github.com/Aider-AI/aider) - Terminal-first pair programmer that edits code in local repos and preserves Git history · Python.
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Mature autonomous agent platform with Forge and public benchmarks · Python · ⭐ 177k.
+- [Claude Code](https://github.com/anthropics/claude-code) - Anthropic's terminal-first agentic coding tool with multi-file edits, test running, and Git operations · TypeScript · ⭐ 37.1k.
+- [MetaGPT](https://github.com/geekan/MetaGPT) - Simulates a full software company workflow from requirements to PRs using role-playing agents · Python.
+- [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - Execute code locally via natural-language model instructions · Python · ⭐ 60k.
+- [OpenDevin](https://github.com/OpenDevin/OpenDevin) - Autonomous software engineer for multi-step coding tasks and terminal automation · Python · ⭐ 61.4k.
 
-**[GitHub](https://github.com/anthropics/claude-code)** · **[Site](https://claude.ai/code)** · `TypeScript` · ⭐ 37.1k
-
-Anthropic's agentic coding tool operating directly in your terminal. Deep codebase understanding, autonomous multi-file editing, test running, and Git operations. The benchmark setter for coding agents going into 2026.
-
-### AutoGPT
-
-**[GitHub](https://github.com/Significant-Gravitas/AutoGPT)** · `Python` · ⭐ 177k
-
-The original autonomous agent experiment that sparked the field. Now a mature platform with Forge for agent creation, agbenchmark for evaluation, and a public leaderboard.
-
-### OpenHands OpenDevin
-
-**[GitHub](https://github.com/OpenDevin/OpenDevin)** · `Python` · ⭐ 61.4k
-
-Open-source autonomous software engineer that executes multi-step coding tasks, browses the web, and runs terminal commands. Focused on complex real-world software development scenarios.
 
 ### Aider
 
@@ -401,12 +299,8 @@ Lilian Weng's comprehensive breakdown of the components of LLM-powered agents: p
 
 ---
 
-<div align="center">
-
 Made with ❤️ for the AI agent community · March 2026
 
 [View on GitHub](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents) · Inspired by [awesome](https://github.com/sindresorhus/awesome) lists
 
 ⭐ If this list saved you time, a star means more people can find it ⭐
-
-</div>
