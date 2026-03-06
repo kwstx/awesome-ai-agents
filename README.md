@@ -1,6 +1,6 @@
-# Awesome AI Agents 2026
+# Awesome AI Agents 2026 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Updated](https://img.shields.io/badge/Updated-March%202026-00d4ff) ![Tools](https://img.shields.io/badge/Tools-80%2B-7c3aed) [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-10b981)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/blob/main/CONTRIBUTING.md) ![License](https://img.shields.io/badge/License-CC0-f59e0b)
+![Updated](https://img.shields.io/badge/Updated-March%202026-00d4ff) ![Tools](https://img.shields.io/badge/Tools-80%2B-7c3aed) [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-10b981)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/blob/main/CONTRIBUTING.md) ![License](https://img.shields.io/badge/License-CC0-f59e0b)
 
 A meticulously curated list of frameworks, tools, platforms, and resources for building autonomous AI agents in 2026.
 
@@ -43,16 +43,16 @@ $7.8B market size (2025) · 46% CAGR through 2030 · 40% of enterprise apps expe
 
 Here are quick recommendations depending on what you want to do:
 
-- Build a production agent pipeline in Python — [LangGraph](#langgraph) or [CrewAI](#crewai)
-- Build a production agent pipeline in TypeScript — [Mastra](#mastra) or [VoltAgent](#voltagent)
-- Write and debug code autonomously — [Claude Code](#claude-code) or [OpenHands](#openhands-opendevin)
-- Orchestrate large teams of agents — [AutoGen](#autogen-microsoft-agent-framework) or [Swarms](#swarms-framework)
-- Build without writing code — [Dify](#dify) or [Langflow](#langflow)
-- Add memory to an existing agent — [Mem0](#mem0)
-- Run code safely in a sandbox — [E2B](#e2b)
-- Add safety guardrails to any agent — [AgentGuard](#agentguard)
-- Build a voice agent — [Pipecat](#pipecat)
-- Learn the fundamentals first — [Building Effective Agents](#building-effective-agents--anthropic)
+- Build a production agent pipeline in Python — [LangGraph](https://github.com/langchain-ai/langgraph) or [CrewAI](https://github.com/joaomdmoura/crewAI)
+- Build a production agent pipeline in TypeScript — [Mastra](https://github.com/mastra-ai/mastra) or [VoltAgent](#voltagent)
+- Write and debug code autonomously — [Claude Code](https://github.com/anthropics/claude-code) or [OpenHands OpenDevin](https://github.com/OpenDevin/OpenDevin)
+- Orchestrate large teams of agents — [AutoGen](https://github.com/microsoft/autogen) or [Swarms Framework](https://github.com/kyegomez/swarms)
+- Build without writing code — [Dify](https://github.com/langgenius/dify) or [Langflow](https://github.com/langflow-ai/langflow)
+- Add memory to an existing agent — [Mem0](https://github.com/mem0ai/mem0)
+- Run code safely in a sandbox — [E2B](https://github.com/e2b-dev/e2b)
+- Add safety guardrails to any agent — [AgentGuard](https://github.com/agentguard/example) 
+- Build a voice agent — [Pipecat](https://github.com/pipecat-ai/pipecat)
+- Learn the fundamentals first — [Building Effective Agents — Anthropic](https://www.anthropic.com/research/building-effective-agents)
 
 ---
 
